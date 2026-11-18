@@ -1,0 +1,17 @@
+{
+ "task": {
+  "id": "fresh-133",
+  "source": "fresh",
+  "question": "Сколько составила общая протяжённость дистанции Тур де Франс 2026?",
+  "answer": "3333 км",
+  "evidence": "Общая протяжённость дистанции составила 3333 км с общим набором высоты 54500 м.",
+  "page": "Тур де Франс 2026",
+  "url": "https://ru.wikipedia.org/wiki/%D0%A2%D1%83%D1%80_%D0%B4%D0%B5_%D0%A4%D1%80%D0%B0%D0%BD%D1%81_2026",
+  "sonnet_answer": "",
+  "agent_ok": ""
+ },
+ "answer": "ошибка: HTTP 429 : {\"error\":{\"message\":\"Rate limit exceeded: new-account-rpm/anthropic/claude-4.5-haiku-20251001. Rate limit reached: new accounts are limited to 20 requests per minute for this model. Please retry shortly.\",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"20\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1795034820000\"},\"limit_source\":\"openrouter_new_account\",\"remedy_hint\":\"New accounts are temporarily limited for this model. Please retry shortly.\",\"provider_name\":null,\"previous_errors\":[{\"code\":429,\"message\":\"Rate limit exceeded: new-account-rpm/anthropic/claude-4.5-haiku-20251001. Rate limit reached: new accounts are limited to 20 requests per minute for this model. Please retry shortly.\"},{\"code\":429,\"message\":\"Rate limit exceeded: new-account-rpm/anthropic/claude-4.5-haiku-20251001. Rate limit reached: new accounts are limited to 20 requests per minute for this model. Please retry shortly.\"},{\"code\":429,\"message\":\"Rate limit exceeded: new-account-rpm/anthropic/claude-4.5-haiku-20251001. Rate limit reached: new accounts are limited to 20 requests per minute for this model. Please retry shortly.\"}]}},\"user_id\":\"user_3MCbWijC3SXcirdrBsSyiPYYk1k\"}",
+ "correct": false,
+ "cost": 0.0,
+ "messages": []
+}

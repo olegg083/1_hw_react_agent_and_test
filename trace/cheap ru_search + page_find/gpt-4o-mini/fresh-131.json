@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-131",
+  "source": "fresh",
+  "question": "На каком стадионе проводился плей-офф The International 2026?",
+  "answer": "SPD Bank Oriental Sports Center",
+  "evidence": "Плей-офф состоялся на стадионе SPD Bank Oriental Sports Center. ",
+  "page": "The International 2026",
+  "url": "https://ru.wikipedia.org/wiki/The_International_2026",
+  "sonnet_answer": "",
+  "agent_ok": ""
+ },
+ "answer": "Плей-офф The International 2026 проводился на стадионе SPD Bank Oriental Sports Center. \n\nFINAL: SPD Bank Oriental Sports Center",
+ "correct": true,
+ "cost": 0.00023414999999999547,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "На каком стадионе проводился плей-офф The International 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_HVFaYiARSg01wrtUpCLnWFlv",
+     "function": {
+      "name": "ru_web_search",
+      "arguments": "{\"query\":\"плей-офф The International 2026 стадион\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_HVFaYiARSg01wrtUpCLnWFlv",
+   "content": "[The International 2026] The International 2026 — пятнадцатый киберспортивный турнир серии The International по компьютерной игре Dota 2, организованный компанией-разработчиком игры Valve и турнирным оператором PGL. Основной этап турнира проходил с 13 по 23 августа 2026 в Шанхае."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_24RgXqEXrd83lxbi0jMCEXZT",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"The International 2026\",\"keywords\":\"стадион, плей-офф\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_24RgXqEXrd83lxbi0jMCEXZT",
+   "content": "[The International 2026]\n3 лучшие команды сразу вышли в плей-офф, а коллективы с 4-го по 13-е места сыграли стыковые матчи на выбывание, по итогам которых 5 команд прошли в плей-офф, а остальные покинули турнир.\nПлей-офф состоялся на стадионе SPD Bank Oriental Sports Center.\n== Плей-офф =="
+  },
+  {
+   "role": "assistant",
+   "content": "Плей-офф The International 2026 проводился на стадионе SPD Bank Oriental Sports Center. \n\nFINAL: SPD Bank Oriental Sports Center",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

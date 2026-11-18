@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-131",
+  "source": "fresh",
+  "question": "На каком стадионе проводился плей-офф The International 2026?",
+  "answer": "SPD Bank Oriental Sports Center",
+  "evidence": "Плей-офф состоялся на стадионе SPD Bank Oriental Sports Center. ",
+  "page": "The International 2026",
+  "url": "https://ru.wikipedia.org/wiki/The_International_2026",
+  "sonnet_answer": "",
+  "agent_ok": ""
+ },
+ "answer": "Я не располагаю информацией о The International 2026, так как мои знания ограничены датой начала 2025 года, и это событие ещё не произошло (или информация о нём мне недоступна).\n\nFINAL: Информация недоступна",
+ "correct": false,
+ "cost": 0.0015300000000000001,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "На каком стадионе проводился плей-офф The International 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "Я не располагаю информацией о The International 2026, так как мои знания ограничены датой начала 2025 года, и это событие ещё не произошло (или информация о нём мне недоступна).\n\nFINAL: Информация недоступна",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

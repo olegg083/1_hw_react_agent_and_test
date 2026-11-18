@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-130",
+  "source": "fresh",
+  "question": "В каком городе проводился основной этап турнира The International 2026?",
+  "answer": "В Шанхае",
+  "evidence": "Основной этап турнира проходил с 13 по 23 августа 2026 в Шанхае.",
+  "page": "The International 2026",
+  "url": "https://ru.wikipedia.org/wiki/The_International_2026",
+  "sonnet_answer": "",
+  "agent_ok": ""
+ },
+ "answer": "Отлично! Я нашел информацию.\n\nFINAL: Шанхай",
+ "correct": false,
+ "cost": 0.011613999999999985,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "В каком городе проводился основной этап турнира The International 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "Я помогу вам найти информацию о том, где проводился основной этап турнира The International 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_011PsTxRu1eT3Bf3daPkDarn",
+     "function": {
+      "name": "ru_web_search",
+      "arguments": "{\"query\": \"The International 2026 турнир город\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_011PsTxRu1eT3Bf3daPkDarn",
+   "content": "[Чемпионат мира по тяжёлой атлетике 2026] 91-й Чемпионат мира по тяжёлой атлетике 2026 проходил в Нинбо (Китай) с 27 октября по 8 ноября 2026 года. Это первый чемпионат после новых изменений границ весовых категорий. На этом турнире были разыграны медали в 16 весовых категориях, по 8 у мужчин и женщин. Чемпионат мира являлся квалификационным турниром к летним Олимпийским играм 2028 года в Лос-Анджелесе. Это второй чемпионат мира по тяжёлой атлетике, который провёл Китай. Первый проходил в 1995 году."
+  },
+  {
+   "role": "assistant",
+   "content": "Это информация не о The International для Dota 2. Давайте поищем более конкретно.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_019vLDnDs3xRCZBfYfkq1v2n",
+     "function": {
+      "name": "ru_web_search",
+      "arguments": "{\"query\": \"The International 2026 Dota 2\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_019vLDnDs3xRCZBfYfkq1v2n",
+   "content": "[The International 2026] The International 2026 — пятнадцатый киберспортивный турнир серии The International по компьютерной игре Dota 2, организованный компанией-разработчиком игры Valve и турнирным оператором PGL. Основной этап турнира проходил с 13 по 23 августа 2026 в Шанхае."
+  },
+  {
+   "role": "assistant",
+   "content": "Отлично! Я нашел информацию.\n\nFINAL: Шанхай",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "task": {
+  "id": "fresh-135",
+  "source": "fresh",
+  "question": "Сколько графических процессоров использовалось для предобучения GPT-6 Astra?",
+  "answer": "более чем 100 000",
+  "evidence": "Вице-президент OpenAI по исследованиям Эйдан Кларк сообщил журналистам, что разработка GPT-6 Astra включала в себя «наиболее масштабный» цикл обучения: «Это первый раз, когда мы предобучали модель на более чем 100 000 графических процессорах на нашем Stargate в Техасе»",
+  "page": "GPT-6",
+  "url": "https://ru.wikipedia.org/wiki/GPT-6",
+  "sonnet_answer": "",
+  "agent_ok": ""
+ },
+ "answer": "ошибка: HTTP 429 : {\"error\":{\"message\":\"Rate limit exceeded: new-account-rpm/anthropic/claude-4.5-haiku-20251001. Rate limit reached: new accounts are limited to 20 requests per minute for this model. Please retry shortly.\",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"20\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1795034820000\"},\"limit_source\":\"openrouter_new_account\",\"remedy_hint\":\"New accounts are temporarily limited for this model. Please retry shortly.\",\"provider_name\":null,\"previous_errors\":[{\"code\":429,\"message\":\"Rate limit exceeded: new-account-rpm/anthropic/claude-4.5-haiku-20251001. Rate limit reached: new accounts are limited to 20 requests per minute for this model. Please retry shortly.\"},{\"code\":429,\"message\":\"Rate limit exceeded: new-account-rpm/anthropic/claude-4.5-haiku-20251001. Rate limit reached: new accounts are limited to 20 requests per minute for this model. Please retry shortly.\"},{\"code\":429,\"message\":\"Rate limit exceeded: new-account-rpm/anthropic/claude-4.5-haiku-20251001. Rate limit reached: new accounts are limited to 20 requests per minute for this model. Please retry shortly.\"}]}},\"user_id\":\"user_3MCbWijC3SXcirdrBsSyiPYYk1k\"}",
+ "correct": false,
+ "cost": 0.0,
+ "messages": []
+}

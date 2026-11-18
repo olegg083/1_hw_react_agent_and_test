@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-131",
+  "source": "fresh",
+  "question": "На каком стадионе проводился плей-офф The International 2026?",
+  "answer": "SPD Bank Oriental Sports Center",
+  "evidence": "Плей-офф состоялся на стадионе SPD Bank Oriental Sports Center. ",
+  "page": "The International 2026",
+  "url": "https://ru.wikipedia.org/wiki/The_International_2026",
+  "sonnet_answer": "",
+  "agent_ok": ""
+ },
+ "answer": "Плей-офф The International 2026 проводился в Шанхае. FINAL: Шанхай",
+ "correct": false,
+ "cost": 0.00010095000000000243,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "На каком стадионе проводился плей-офф The International 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_7MK43U4CsbOMBOovOuOVwQd5",
+     "function": {
+      "name": "ru_web_search",
+      "arguments": "{\"query\":\"The International 2026 плей-офф стадион\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_7MK43U4CsbOMBOovOuOVwQd5",
+   "content": "[The International 2026] The International 2026 — пятнадцатый киберспортивный турнир серии The International по компьютерной игре Dota 2, организованный компанией-разработчиком игры Valve и турнирным оператором PGL. Основной этап турнира проходил с 13 по 23 августа 2026 в Шанхае."
+  },
+  {
+   "role": "assistant",
+   "content": "Плей-офф The International 2026 проводился в Шанхае. FINAL: Шанхай",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

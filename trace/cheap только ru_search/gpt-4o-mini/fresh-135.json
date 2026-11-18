@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-135",
+  "source": "fresh",
+  "question": "Сколько графических процессоров использовалось для предобучения GPT-6 Astra?",
+  "answer": "более чем 100 000",
+  "evidence": "Вице-президент OpenAI по исследованиям Эйдан Кларк сообщил журналистам, что разработка GPT-6 Astra включала в себя «наиболее масштабный» цикл обучения: «Это первый раз, когда мы предобучали модель на более чем 100 000 графических процессорах на нашем Stargate в Техасе»",
+  "page": "GPT-6",
+  "url": "https://ru.wikipedia.org/wiki/GPT-6",
+  "sonnet_answer": "",
+  "agent_ok": ""
+ },
+ "answer": "Информация о количестве графических процессоров, использованных для предобучения GPT-6 Astra, в данный момент отсутствует. \n\nFINAL: Нет данных.",
+ "correct": false,
+ "cost": 9.434999999999999e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Сколько графических процессоров использовалось для предобучения GPT-6 Astra?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_cfQOMkU6BoWVLLWChukFhRCg",
+     "function": {
+      "name": "ru_web_search",
+      "arguments": "{\"query\":\"GPT-6 Astra графические процессоры предобучение\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_cfQOMkU6BoWVLLWChukFhRCg",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": "Информация о количестве графических процессоров, использованных для предобучения GPT-6 Astra, в данный момент отсутствует. \n\nFINAL: Нет данных.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}
